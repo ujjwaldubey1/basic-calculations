@@ -3,11 +3,15 @@
 
 import java.util.Scanner;
 
+
 public class Calculator {
+
+
     public static void main(String[] args) {
         // Create a Scanner object to read input from the user
         Scanner scanner = new Scanner(System.in);
         // Input the first number
+        
         System.out.print("Enter the first number: ");
         double num1 = scanner.nextDouble();
         // Input the second number
